@@ -1,0 +1,124 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    border-bottom: 4px #32b0cd solid;
+}
+
+/* Apenas o primeiro título em h1 = caminho da peimeira tag */
+.header h1 {
+    color: #39b0cd;
+}
+
+ul {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+}
+
+.conteiner {
+    width: 80%;
+    /* auto divide 10% para direita e esquerda, centralizando os 80% */
+    margin: auto;
+    display: flex;
+}
+
+.header .conteiner {
+    justify-content: space-between;
+    align-items: center;
+}
+
+li,
+a {
+    color: #e3b062;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* FIM do header */
+
+/* Começo do Banner */
+.banner {
+    width: 100%;
+    height: 500px;
+    /* ctrl + espaço = para selecionar a imagem dentro do campo da url */
+    background-image: url(img/jelly_fish.png);
+    background-size: cover;
+    color: white;
+}
+
+
+.banner .conteiner {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner .conteiner p {
+    width: 250px;
+    font-size: 40px;
+}
+
+span {
+    font-weight: 800;
+}
+
+/* FIM do Banner */
+
+/* Começo do Social */
+.social{
+    background-color: #cdcdcd;
+}
+.social .conteiner {
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+.social .conteiner img {
+    width: 200px;
+    height: 200px;
+}
+
+.conteiner .card{
+    background-color: #cdcdcd;
+    border-radius: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.card h4 {
+    color: #d6271d;
+}
+.social .conteiner .card p {
+    font-size: 20px;
+}
+/* Começo do footer */
+
+.footer{
+    width: 100%;
+    background-color: #32a7b1;
+    color: white;
+}
+.footer .conteiner{
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.footer .conteiner p {
+    color: black;
+}
